@@ -149,6 +149,7 @@ export const deleteData = (req: IncomingMessage, res: ServerResponse) => {
                 for(let i = 1; i<=length; i++){
                     idArr.push(i)
                 }
+                
                 for(let i = 0; i<deleteOrganization.length; i++){
                     for(let j = 0; j<idArr.length; j++){
                         if(i === j){

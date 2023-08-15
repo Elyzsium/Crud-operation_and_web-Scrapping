@@ -50,4 +50,4 @@ const server = http_1.default.createServer((req, res) => {
             return result;
     });
 });
-server.listen(3001, () => console.log(`server is running`));
+server.listen(3001, () => console.log(`server is running on port 3001`));
